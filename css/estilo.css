@@ -7,10 +7,13 @@ blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none
 table { border-collapse: collapse; border-spacing: 0;}
 
 /* index */
+
+
 img{
     display: block;
     margin: 0px auto;
     width: 400px;
+   
 
 }
 a{
@@ -30,6 +33,7 @@ a:hover
 }
 .jumbotron{
     background-color: rgba(20,244,137,0.28);
+   
     /* margin-top: 50px; */
   
 }
@@ -40,6 +44,13 @@ section{
     border-radius: 10px;
     box-shadow: 2px 2px 7px 1px #1C6EA4;
     width: 500px;
+    object-fit: cover;
+}
+
+@media(max-width:600px) {
+    #frtescola{
+        width: 400px;
+    }
 }
 h2{
     text-align:center;
@@ -101,6 +112,7 @@ video{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
    
 }
@@ -113,6 +125,7 @@ video{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .mural img{
