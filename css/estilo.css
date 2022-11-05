@@ -96,4 +96,78 @@ video{
   
 }
 
-
+/* recicla */
+.recicla{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+   
+}
+.recicla img{
+    border:1px solid #000;
+    border-radius:10px;
+}
+/* mural */
+.mural{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.mural img{
+    border:1px solid #000;
+    border-radius:10px;
+}
+/* agua */
+.agua{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.agua img{
+    border:1px solid #000;
+    border-radius:10px;
+}
+/* genero */
+.genero{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.juntar img{
+    border:1px solid #000;
+    border-radius:10px;
+    border-top: none;
+    border-bottom: none;
+}
+#respeito{
+    width: 800px;
+}
+/* etnico */
+.etnico{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.etnico img{
+    border:1px solid #000;
+    border-radius:10px;
+}
+/* direito */
+.direito{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.direito img{
+    border:1px solid #000;
+    border-radius:10px;
+}
